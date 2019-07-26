@@ -3,94 +3,95 @@ body{
   padding:0;
   margin:0;
  }
-
-.container{
+ 
+ .container{
   margin:auto;
   overflow:hidden;
  }
-
-ul{
+ 
+ ul{
   margin:0;
   padding:0;
  }
-
-
-/* Header, Buttons */
-header{
+ 
+ 
+ /* Header, Buttons */
+ header{
   background:lightpink;
   color: white;
   padding-top:-2px;
   min-height: 10px;
  }
-
-header a{
+ 
+ header a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
  }
- 
-header a:hover{
+ header a:hover{
    background: white;
    color: lightpink;
    padding: 5px 1px 5px 1x;
  }
- 
  header nav{
   float:right;
   margin-top:0;
  }
-
-header li{
+ 
+ header li{
   float:left;
   display:inline;
-  padding: 0 200px 0 200px;
+  padding: 0 100px 0 50px;
+  margin-right:80px;
+ 
  }
-
-
+ 
+ 
  /* Logo, "Vacation Time" */
-header #branding{
+ header #branding{
   float:left center;
   margin-top:3px;
   margin-bottom:3px;
  }
-
-header #branding h1{
+ 
+ header #branding h1{
   margin:10px;
  }
-
-iframe{
+ 
+ iframe{
   margin-top:-70px;
   padding:0 0 0 0;
   border:none;
-}
-
-
-/* Welcome and Click on a State */
-/*Showcase = blossom image, h2 = welcome, p = click... */
-/*Min and max height changes size of blossom part */
-#showcase{
+ }
+ 
+ 
+ /*HOME: Welcome and Click on a State*/
+ /*Showcase = blossom image, h2 = welcome, p = click...*/
+ /*Min and max height changes size of blossom part*/
+ #showcase{
   min-height:215px;
   max-height:215px;
   background:url(https://cherryblossomwatch.com/wp-content/uploads/2019/04/cherry-blossoms-washington-dc-april-01-2019-418x.jpg) no-repeat 0 -300px;
   text-align:center;
   color: rgb(0, 0, 0);
  }
-
+ 
  #showcase h2{
   margin-top:-5px;
   margin-bottom:0;
   font-size:100px;
   font-family:'Brush Script MT';
  }
-
+ 
  #showcase p{
   margin-top:0;
   margin-bottom:0;
   font-size:30px;
   font-family:'Futura';
  }
-
+ 
+ /*CONTACT FORM*/
  #showcase-2{
   min-height:215px;
   max-height:215px;
@@ -100,17 +101,76 @@ iframe{
   text-align:center;
   color: rgb(0, 0, 0);
  }
-
+ 
  #showcase-2 h2{
   margin-top:-5px;
   margin-bottom:0;
   font-size:100px;
   font-family:'Brush Script MT';
  }
-
+ 
  #showcase-2 p{
   margin-top:0;
   margin-bottom:0;
   font-size:30px;
   font-family:'Futura';
  }
+ 
+ /*PHOTO GALLERY*/
+ #showcase-3{
+  min-height:215px;
+  max-height:215px;
+  background:url(https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60) no-repeat 0 -190px;
+  background-repeat:no-repeat;
+  background-size:1440px 405px;
+  text-align:center;
+  color: rgb(0, 0, 0);
+ }
+ 
+ #showcase-3 h2{
+  margin-top:-5px;
+  margin-bottom:0;
+  font-size:100px;
+  font-family:'Brush Script MT';
+ }
+ 
+ #showcase-3 p{
+  margin-top:0;
+  margin-bottom:0;
+  font-size:30px;
+  font-family:'Futura';
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ /*IMAGES*/
+ .row img{
+  width:600px;
+  height:450px;
+  margin-left:40px;
+  margin-right:40px;
+  margin-top:20px;
+  vertical-align:middle;
+  border-radius:150px;
+ }
+ .row figcaption{
+  font-family:'Futura';
+  font-size:20px;
+  position:center,
+ }
+
+
